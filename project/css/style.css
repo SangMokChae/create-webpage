@@ -3,17 +3,35 @@
 @import "header.css";
 @import "footer.css";
 
-#main {
-  border: 1px solid blueviolet;
+body {
   width: auto;
-  height: 80%;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.left {
+#main {
+  border: 1px solid blueviolet;
+  margin: 10px 20px;
+  width: auto;
+  height: 78vh;
+}
+
+.mainboard {
   float: left;
+  border: 1px solid black;
+  width: 70%;
+  margin: 10px 2%;
+  height: 75vh;
+}
+
+.textarea {
+  margin-top: 20px;
 }
 
 #sidebar {
   border: 1px solid black;
   float: right;
+  margin: 10px 4%;
+  height: 75vh;
+  width: 17%;
 }

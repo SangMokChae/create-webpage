@@ -1,0 +1,34 @@
+#header {
+  position: relative;
+  background: linear-gradient( to right, white,  rgba(0, 0, 0, 0.42));
+  padding: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.clock {
+  font-size: 25px;
+}
+
+.top-icon > a {
+  text-decoration: none;
+  color: black;
+}
+
+@keyframes colorChange {
+  from {
+    color: black;
+  }
+  to {
+    color: yellow;
+  }
+}
+
+.top-icon > a:hover {
+  animation: colorChange 1s linear infinite;
+}
